@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+.background{
+    background-image: url(image/collage\ image.jpg);
+    background-size: 100% 100%;
+
+    }
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logo{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: gray;
+}
+.navbar a{
+    color: white;
+    text-decoration:none;
+    padding:15px;
+    display: block;
+
+    
+}
+.navbar a:hover{
+    background-color:rgb(58, 57, 57);
+    transition: 1s;
+}
+.navbar li{
+    float: left;
+}
+h3{
+    color: white;
+    font-size: 30px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(44, 211, 223);
+    font-size: 25px;
+}
+h2{
+    color:rgb(44, 211, 223);
+    font-size: 25px;
+}
+.home {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(101, 108, 112);
+}
+.contact{
+    text-align: center;
+    font-size: 50px;
+}
+.icons{
+    font-size:25px;
+    text-align: center;
+    
+}
+.fa-brands.fa-facebook.fa-5x{
+    color:	hsl(214, 89%, 52%);
+}
+.fa-brands.fa-instagram.fa-5x{
+    color:hsl(326, 57%, 48%);
+}
+.icons a{
+    text-decoration: none;
+    margin-right: 30px  ;
+}
+.foods img{
+    width:35%;
+    height: auto;
+    display: block;
+  width: 50%;
+}
+.table{
+    margin-left: auto;
+  margin-right: auto;
+  width: 100% 100%;
+}
+#myVideo {
+    position: fixed;
+    margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+}
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
